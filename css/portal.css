@@ -1,12 +1,14 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #563727;
+    /* font-family: 'Quicksand', sans-serif; */
     font-size: 0.95em;
     line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 ::selection {
@@ -21,6 +23,10 @@ h1 {
     line-height: 2.5em;
 }
 
+h1.logo{
+    font-family: 'Oleo Script', cursive;
+    font-size: 48px;
+}
 main.wrapper {
     background-color: white;
     overflow: auto;
@@ -37,13 +43,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#DE9E48;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #DE9E48;
     text-decoration: none;
 }
 
