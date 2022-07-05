@@ -34,6 +34,7 @@
     .topnav a.icon {
         float: right;
         display: block;
+        padding:12px 20px;
     }
     
     .topnav.responsive {
